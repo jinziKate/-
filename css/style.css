@@ -1,0 +1,236 @@
+body{margin: 0; font-family:"华文新魏";}
+a{text-decoration: none;
+    color: black;
+}
+.nav{width: 30%;
+    min-width: 576px;
+    height: 1250px;
+    background: url(../img/nav.jpg) fixed;
+    float: left;
+    overflow: hidden;
+    position: fixed;
+}
+#register{width: 100px;
+   height: 100px;
+   background-color: #eacfd4;
+   -webkit-transform:rotate(45deg);
+           transform:rotate(45deg);
+   position: absolute;
+        left:42%;
+        top: 100px;
+}
+#you{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);
+    text-align: center;
+    font-size: 30px;
+}
+.merry{background: url(../img/merry.png)no-repeat;
+    background-size: 274px 77px;
+    width: 274px;
+    height: 77px;
+    -webkit-transform:rotate(3deg);
+            transform:rotate(3deg);
+    position: absolute;
+        left: 26%;
+        top: 240px;
+}
+.jingle{width: 300px;
+    height: 300px;
+    background: url(../img/fanta.png)no-repeat;
+    background-size: 300px 300px;
+    position: absolute;
+        top: 210px;
+        left: 24.5%;
+}
+.impWish1Main{width: 180px;
+    height: 180px;
+    -webkit-transform:rotate(45deg);
+            transform:rotate(45deg);
+    background: #fbe9d5;
+    position: absolute;
+        top: 485px;
+        left: 34.5%;
+}
+.impWish1Main p{margin: 0;
+    -webkit-transform:rotate(-45deg);
+            transform:rotate(-45deg);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#gather{width: 70%;
+    background: #fffbf8;
+    float: right;
+    position: relative;
+}
+#hint{background: #935155;
+    opacity: 0.5;
+    font-size: 36px;
+    text-align: center;
+    font-family:"风雨  井柏然体加粗版";
+    color: white;
+}
+.gift{width: 33%;
+    height: 100%;
+    margin-left: 0.3%;
+    margin-bottom: 10px;
+    float: left;
+    background: white;
+    display: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.giftT{height: 360px;
+    position: relative;
+}
+.oImg{width: 100%;
+    height: 360px;
+}
+.gImg{width: 100px;
+    height: 110px;
+    background: url(../img/icon1.png);
+    background-size: 100% 100%;
+    position: absolute;
+        bottom: -55px;
+        left: 170px;
+}
+.wishName{font-size: 20px;
+    text-align: center;
+    margin-top: 55px;
+}
+.wishContent{font-size: 16px;
+    height: 102px;
+    padding-left:30px;
+    padding-right: 30px;
+    outline: none;
+    border: 0;
+    width: 370px;
+    resize: none;
+    text-align: center;
+    font-family: "风雨  井柏然体加粗版";
+}
+.innerwishDiv{width: 500px;
+    height: 460px;
+    position: absolute;
+        top: 18px;
+        left: 9px;
+    background: url(../img/innerwishDivbg.png)no-repeat;
+    background-size: 100%;
+}
+#textarea1{width: 470px;
+    height: 290px;
+    position: relative;
+        top: 500px;
+        left: 36px;
+    background:transparent;
+    border:none;
+    resize: none;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+    text-indent: 2em;
+    padding: 20px 10px;
+    display: none;
+    font-family: "风雨  井柏然体加粗版";
+}
+#turnOff,#sub1,#rest1{float: right;
+    position: relative;
+        top: 560px;
+        right: 40px;
+    margin-right: 10px;
+    display: none; 
+}
+#masking{width: 100%;
+    height: 100%;
+     position: absolute;
+     z-index: -1;
+}
+.register2Main{width: 440px;
+    height: 340px;
+    z-index: -1;
+    padding: 10px 80px;
+    position: absolute;
+        top: 200px;
+        left: 35%;
+    background: white;
+    opacity: 0.9;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 5px;
+    background: url(../img/register2bg.jpg);
+    background-size: 100%;
+}
+.register2Hidden{width: 0;
+    height: 0;
+}
+#register2Contain{width: 400px;
+    height: 240px;
+    color: white;
+    padding: 80px 100px;
+    position: absolute;
+        left: 0;
+        top: 0;
+    display: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 30px;
+}
+h1{text-align: center; margin-top: 0;}
+#sub2,#restBtn{margin-top: 20px;
+    margin-left: 50px;
+    padding: 10px 20px;
+}
+#wishwall{width: 0;
+    height: 0;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 120px solid #b7c5b4;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    position: absolute;
+        top: 845px;
+        left: 170px;
+}
+#wishwall p{width: 240px;
+    height: 120px;
+    margin: 0;
+    font-size: 26px;
+    text-align: center;
+    position: relative;
+        left: -120px;
+        top: 20px;
+}
+#impwishChange{-webkit-transform: rotate(0);transform: rotate(0);
+    width: 518px;
+    height: 470px;
+    -webkit-transition: height 0.8s;
+    transition: height 0.8s;
+    background: #fbe9d5;
+    position: absolute;
+        left: 25px;
+        top:  485px;
+}
+.button{text-align: center;
+    color: black;
+    background: #c2cbda;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+}
+.button:hover{background: #8894aa;}
+.changebig{transform: scale(2,2);
+    -ms-transform: scale(2,2);	
+    -webkit-transform: scale(2,2);	
+    -o-transform: scale(2,2);	
+    -moz-transform: scale(2,2);	
+}
+#tree{width: 1330px;
+    height: 974px;
+    background: url(../img/tree.jpg);
+    background-size: 100%;
+    position: absolute;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}

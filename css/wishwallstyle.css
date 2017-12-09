@@ -1,0 +1,97 @@
+body{margin: 0; background: #fffbf8; min-width: 1024px; font-family: "华文新魏";} 
+#nav{width: 10%;
+    background: #6a4f54;
+    opacity: 0.6;
+    position: fixed;
+    text-align: center;
+    font-size: 36px;
+    font-family: "风雨  井柏然体加粗版";
+    border-radius: 5px;
+    margin-top: 25%;
+}
+#nav a{color: white; text-decoration: none;}
+#nav:hover{opacity: 0.9;}
+.right{width: 90%;
+    margin-left: 10%;
+}
+.contain{width: 24.5%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin-left: 0.35%;
+}
+.giftT{height: 360px;
+    background: url(../img/gift2.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.gImg{height: 110px;
+    width: 100px;
+    background: url(../img/icon1.png);
+    background-size: 100% 100%;
+    position: absolute;
+        bottom: -55px;
+        left: 170px;
+}
+.wishName{font-size: 20px;
+    text-align: center;
+    margin-top: 55px;
+}
+.wishContent{font-size: 16px;
+    padding-left:30px;
+    padding-right: 30px;
+    outline: none;
+    border: 0;
+    width: 370px;
+    resize: none;
+    text-align: center;
+    background: transparent;
+    font-family: "风雨  井柏然体加粗版";
+}
+.helpBtn{width: 100px;
+    height: 40px;
+    background:#c2cbda;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 35px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 30px;
+}
+.helpBtn:hover{background: #8894aa;}
+.remindOn,.hintOn{width: 400px;
+    height: 160px;
+    font-family: "风雨  井柏然体加粗版";
+    border-radius: 10px;
+    opacity: 0.9;
+    font-size: 28px;
+    text-align: center;
+    background: cornsilk;
+    transition: all 0.5s;
+    position: absolute;
+        top: 20%;
+        left: 40%;
+}
+.hintOn{height: 100px;}
+.remindOff,.hintOff{width: 0;
+    height: 0;
+}
+#no,#yes,#finish{width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 35px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 30px;
+    font-family: "风雨  井柏然体加粗版";
+    font-size: 20px;
+}
+#yes{background: #D1E9D4;}
+#yes:hover{background:#A8C5B6; }
+#no:hover,#finish:hover{background: #dad9d7;}
+#remindContain,#hintContain{display: none;}
